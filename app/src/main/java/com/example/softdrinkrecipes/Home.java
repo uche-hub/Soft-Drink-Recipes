@@ -18,4 +18,9 @@ public class Home extends AppCompatActivity {
         Intent intent = new Intent(this, SoftDrinks.class);
         startActivity(intent);
     }
+
+    public void cocoaDrink(View v){
+        Intent intent = new Intent(this, CocoaDrink.class);
+        startActivity(intent);
+    }
 }

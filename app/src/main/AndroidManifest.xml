@@ -10,9 +10,13 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
+            android:name=".CocoaDrink"
+            android:label="@string/title_activity_cocoa_drink"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+        <activity
             android:name=".SoftDrinks"
             android:label="@string/title_activity_soft_drinks"
-            android:theme="@style/AppTheme.NoActionBar"></activity>
+            android:theme="@style/AppTheme.NoActionBar" />
         <activity android:name=".Home" />
         <activity android:name=".MainActivity">
             <intent-filter>
