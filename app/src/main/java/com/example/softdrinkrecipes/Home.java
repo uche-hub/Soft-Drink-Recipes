@@ -28,4 +28,9 @@ public class Home extends AppCompatActivity {
         Intent intent = new Intent(this, ShakesDrinks.class);
         startActivity(intent);
     }
+
+    public void cockTail(View v){
+        Intent intent = new Intent(this, CockTail.class);
+        startActivity(intent);
+    }
 }

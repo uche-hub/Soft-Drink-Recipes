@@ -50,7 +50,7 @@
                             android:layout_height="130dp"
                             android:layout_marginRight="200dp"
                             android:layout_marginBottom="18sp"
-                            android:src="@drawable/shakes" />
+                            android:src="@drawable/fruitshakes" />
 
                         <TextView
                             android:id="@+id/txt1"
@@ -58,7 +58,7 @@
                             android:layout_height="wrap_content"
                             android:layout_marginLeft="-180dp"
                             android:layout_toRightOf="@id/image1"
-                            android:text="Cocoa"
+                            android:text="Fruit Shakes"
                             android:textSize="20dp"
                             android:textStyle="bold"
                             android:textColor="#DF572D"
@@ -117,7 +117,7 @@
                             android:layout_height="130dp"
                             android:layout_marginRight="200dp"
                             android:layout_marginBottom="18sp"
-                            android:src="@drawable/shakes" />
+                            android:src="@drawable/fruitshakes" />
 
                         <TextView
                             android:id="@+id/txt3"
@@ -125,7 +125,7 @@
                             android:layout_height="wrap_content"
                             android:layout_marginLeft="-180dp"
                             android:layout_toRightOf="@id/image2"
-                            android:text="Coke"
+                            android:text="Fruit Shakes"
                             android:textSize="20dp"
                             android:textStyle="bold"
                             android:textColor="#DF572D"
@@ -185,7 +185,7 @@
                             android:layout_height="130dp"
                             android:layout_marginRight="200dp"
                             android:layout_marginBottom="18sp"
-                            android:src="@drawable/shakes" />
+                            android:src="@drawable/fruitshakes" />
 
                         <TextView
                             android:id="@+id/txt5"
@@ -193,7 +193,7 @@
                             android:layout_height="wrap_content"
                             android:layout_marginLeft="-180dp"
                             android:layout_toRightOf="@id/image3"
-                            android:text="Coke"
+                            android:text="Fruit Shakes"
                             android:textSize="20dp"
                             android:textStyle="bold"
                             android:textColor="#DF572D"
@@ -252,7 +252,7 @@
                             android:layout_height="130dp"
                             android:layout_marginRight="200dp"
                             android:layout_marginBottom="18sp"
-                            android:src="@drawable/shakes" />
+                            android:src="@drawable/fruitshakes" />
 
                         <TextView
                             android:id="@+id/txt7"
@@ -260,7 +260,7 @@
                             android:layout_height="wrap_content"
                             android:layout_marginLeft="-180dp"
                             android:layout_toRightOf="@id/image4"
-                            android:text="Coke"
+                            android:text="Fruit Shakes"
                             android:textSize="20dp"
                             android:textStyle="bold"
                             android:textColor="#DF572D"
@@ -319,7 +319,7 @@
                             android:layout_height="130dp"
                             android:layout_marginRight="200dp"
                             android:layout_marginBottom="18sp"
-                            android:src="@drawable/coke2" />
+                            android:src="@drawable/fruitshakes" />
 
                         <TextView
                             android:id="@+id/txt9"
@@ -327,7 +327,7 @@
                             android:layout_height="wrap_content"
                             android:layout_marginLeft="-180dp"
                             android:layout_toRightOf="@id/image5"
-                            android:text="Coke"
+                            android:text="Fruit Shakes"
                             android:textSize="20dp"
                             android:textStyle="bold"
                             android:textColor="#DF572D"
@@ -386,7 +386,7 @@
                             android:layout_height="130dp"
                             android:layout_marginRight="200dp"
                             android:layout_marginBottom="18sp"
-                            android:src="@drawable/coke2" />
+                            android:src="@drawable/fruitshakes" />
 
                         <TextView
                             android:id="@+id/txt11"
@@ -394,7 +394,7 @@
                             android:layout_height="wrap_content"
                             android:layout_marginLeft="-180dp"
                             android:layout_toRightOf="@id/image6"
-                            android:text="Coke"
+                            android:text="Fruit Shakes"
                             android:textSize="20dp"
                             android:textStyle="bold"
                             android:textColor="#DF572D"
@@ -453,7 +453,7 @@
                             android:layout_height="130dp"
                             android:layout_marginRight="200dp"
                             android:layout_marginBottom="18sp"
-                            android:src="@drawable/coke2" />
+                            android:src="@drawable/fruitshakes" />
 
                         <TextView
                             android:id="@+id/txt13"
@@ -461,7 +461,7 @@
                             android:layout_height="wrap_content"
                             android:layout_marginLeft="-180dp"
                             android:layout_toRightOf="@id/image7"
-                            android:text="Coke"
+                            android:text="Fruit Shakes"
                             android:textSize="20dp"
                             android:textStyle="bold"
                             android:textColor="#DF572D"
