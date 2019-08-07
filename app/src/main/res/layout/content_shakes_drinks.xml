@@ -1,0 +1,497 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".SoftDrinks"
+    android:background="#3EA08383"
+    tools:showIn="@layout/app_bar_soft_drinks"
+    android:orientation="vertical"
+    >
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            >
+
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="173dp"
+                app:cardElevation="24dp"
+                app:cardCornerRadius="50dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                >
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    >
+
+                    <RelativeLayout
+                        android:layout_margin="20dp"
+                        android:layout_width="350dp"
+                        android:layout_height="120dp"
+                        android:orientation="vertical"
+                        >
+
+                        <ImageView
+                            android:id="@+id/image1"
+                            android:layout_width="74dp"
+                            android:layout_height="130dp"
+                            android:layout_marginRight="200dp"
+                            android:layout_marginBottom="18sp"
+                            android:src="@drawable/shakes" />
+
+                        <TextView
+                            android:id="@+id/txt1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="-180dp"
+                            android:layout_toRightOf="@id/image1"
+                            android:text="Cocoa"
+                            android:textSize="20dp"
+                            android:textStyle="bold"
+                            android:textColor="#DF572D"
+                            />
+
+                        <TextView
+                            android:id="@+id/txt2"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="-180dp"
+                            android:layout_below="@+id/txt1"
+                            android:layout_toRightOf="@id/image1"
+                            android:text="About Cocoa:"
+                            android:textSize="16dp"
+                            android:textStyle="bold"
+                            android:textColor="#DF572D"
+                            />
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:src="@drawable/ic_favorite_border_black_24dp"
+                            android:layout_alignParentRight="true"
+                            />
+                    </RelativeLayout>
+
+                </RelativeLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="173dp"
+                app:cardElevation="24dp"
+                app:cardCornerRadius="50dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                >
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    >
+
+                    <RelativeLayout
+                        android:layout_margin="20dp"
+                        android:layout_width="350dp"
+                        android:layout_height="120dp"
+                        android:orientation="vertical"
+                        >
+
+                        <ImageView
+                            android:id="@+id/image2"
+                            android:layout_width="74dp"
+                            android:layout_height="130dp"
+                            android:layout_marginRight="200dp"
+                            android:layout_marginBottom="18sp"
+                            android:src="@drawable/shakes" />
+
+                        <TextView
+                            android:id="@+id/txt3"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="-180dp"
+                            android:layout_toRightOf="@id/image2"
+                            android:text="Coke"
+                            android:textSize="20dp"
+                            android:textStyle="bold"
+                            android:textColor="#DF572D"
+                            />
+
+                        <TextView
+                            android:id="@+id/txt4"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="-180dp"
+                            android:layout_below="@+id/txt3"
+                            android:layout_toRightOf="@id/image2"
+                            android:text="About Coke:"
+                            android:textSize="16dp"
+                            android:textStyle="bold"
+                            android:textColor="#DF572D"
+                            />
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:src="@drawable/ic_favorite_border_black_24dp"
+                            android:layout_alignParentRight="true"
+                            />
+                    </RelativeLayout>
+
+                </RelativeLayout>
+
+            </androidx.cardview.widget.CardView>
+
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="173dp"
+                app:cardElevation="24dp"
+                app:cardCornerRadius="50dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                >
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    >
+
+                    <RelativeLayout
+                        android:layout_margin="20dp"
+                        android:layout_width="350dp"
+                        android:layout_height="120dp"
+                        android:orientation="vertical"
+                        >
+
+                        <ImageView
+                            android:id="@+id/image3"
+                            android:layout_width="74dp"
+                            android:layout_height="130dp"
+                            android:layout_marginRight="200dp"
+                            android:layout_marginBottom="18sp"
+                            android:src="@drawable/shakes" />
+
+                        <TextView
+                            android:id="@+id/txt5"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="-180dp"
+                            android:layout_toRightOf="@id/image3"
+                            android:text="Coke"
+                            android:textSize="20dp"
+                            android:textStyle="bold"
+                            android:textColor="#DF572D"
+                            />
+
+                        <TextView
+                            android:id="@+id/txt6"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="-180dp"
+                            android:layout_below="@+id/txt5"
+                            android:layout_toRightOf="@id/image3"
+                            android:text="About Coke:"
+                            android:textSize="16dp"
+                            android:textStyle="bold"
+                            android:textColor="#DF572D"
+                            />
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:src="@drawable/ic_favorite_border_black_24dp"
+                            android:layout_alignParentRight="true"
+                            />
+                    </RelativeLayout>
+
+                </RelativeLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="173dp"
+                app:cardElevation="24dp"
+                app:cardCornerRadius="50dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                >
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    >
+
+                    <RelativeLayout
+                        android:layout_margin="20dp"
+                        android:layout_width="350dp"
+                        android:layout_height="120dp"
+                        android:orientation="vertical"
+                        >
+
+                        <ImageView
+                            android:id="@+id/image4"
+                            android:layout_width="74dp"
+                            android:layout_height="130dp"
+                            android:layout_marginRight="200dp"
+                            android:layout_marginBottom="18sp"
+                            android:src="@drawable/shakes" />
+
+                        <TextView
+                            android:id="@+id/txt7"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="-180dp"
+                            android:layout_toRightOf="@id/image4"
+                            android:text="Coke"
+                            android:textSize="20dp"
+                            android:textStyle="bold"
+                            android:textColor="#DF572D"
+                            />
+
+                        <TextView
+                            android:id="@+id/txt8"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="-180dp"
+                            android:layout_below="@+id/txt7"
+                            android:layout_toRightOf="@id/image4"
+                            android:text="About Coke:"
+                            android:textSize="16dp"
+                            android:textStyle="bold"
+                            android:textColor="#DF572D"
+                            />
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:src="@drawable/ic_favorite_border_black_24dp"
+                            android:layout_alignParentRight="true"
+                            />
+                    </RelativeLayout>
+
+                </RelativeLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="173dp"
+                app:cardElevation="24dp"
+                app:cardCornerRadius="50dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                >
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    >
+
+                    <RelativeLayout
+                        android:layout_margin="20dp"
+                        android:layout_width="350dp"
+                        android:layout_height="120dp"
+                        android:orientation="vertical"
+                        >
+
+                        <ImageView
+                            android:id="@+id/image5"
+                            android:layout_width="74dp"
+                            android:layout_height="130dp"
+                            android:layout_marginRight="200dp"
+                            android:layout_marginBottom="18sp"
+                            android:src="@drawable/coke2" />
+
+                        <TextView
+                            android:id="@+id/txt9"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="-180dp"
+                            android:layout_toRightOf="@id/image5"
+                            android:text="Coke"
+                            android:textSize="20dp"
+                            android:textStyle="bold"
+                            android:textColor="#DF572D"
+                            />
+
+                        <TextView
+                            android:id="@+id/txt10"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="-180dp"
+                            android:layout_below="@+id/txt9"
+                            android:layout_toRightOf="@id/image5"
+                            android:text="About Coke:"
+                            android:textSize="16dp"
+                            android:textStyle="bold"
+                            android:textColor="#DF572D"
+                            />
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:src="@drawable/ic_favorite_border_black_24dp"
+                            android:layout_alignParentRight="true"
+                            />
+                    </RelativeLayout>
+
+                </RelativeLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="173dp"
+                app:cardElevation="24dp"
+                app:cardCornerRadius="50dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                >
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    >
+
+                    <RelativeLayout
+                        android:layout_margin="20dp"
+                        android:layout_width="350dp"
+                        android:layout_height="120dp"
+                        android:orientation="vertical"
+                        >
+
+                        <ImageView
+                            android:id="@+id/image6"
+                            android:layout_width="74dp"
+                            android:layout_height="130dp"
+                            android:layout_marginRight="200dp"
+                            android:layout_marginBottom="18sp"
+                            android:src="@drawable/coke2" />
+
+                        <TextView
+                            android:id="@+id/txt11"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="-180dp"
+                            android:layout_toRightOf="@id/image6"
+                            android:text="Coke"
+                            android:textSize="20dp"
+                            android:textStyle="bold"
+                            android:textColor="#DF572D"
+                            />
+
+                        <TextView
+                            android:id="@+id/txt12"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="-180dp"
+                            android:layout_below="@+id/txt11"
+                            android:layout_toRightOf="@id/image6"
+                            android:text="About Coke:"
+                            android:textSize="16dp"
+                            android:textStyle="bold"
+                            android:textColor="#DF572D"
+                            />
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:src="@drawable/ic_favorite_border_black_24dp"
+                            android:layout_alignParentRight="true"
+                            />
+                    </RelativeLayout>
+
+                </RelativeLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="173dp"
+                app:cardElevation="24dp"
+                app:cardCornerRadius="50dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                >
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    >
+
+                    <RelativeLayout
+                        android:layout_margin="20dp"
+                        android:layout_width="350dp"
+                        android:layout_height="120dp"
+                        android:orientation="vertical"
+                        >
+
+                        <ImageView
+                            android:id="@+id/image7"
+                            android:layout_width="74dp"
+                            android:layout_height="130dp"
+                            android:layout_marginRight="200dp"
+                            android:layout_marginBottom="18sp"
+                            android:src="@drawable/coke2" />
+
+                        <TextView
+                            android:id="@+id/txt13"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="-180dp"
+                            android:layout_toRightOf="@id/image7"
+                            android:text="Coke"
+                            android:textSize="20dp"
+                            android:textStyle="bold"
+                            android:textColor="#DF572D"
+                            />
+
+                        <TextView
+                            android:id="@+id/txt14"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="-180dp"
+                            android:layout_below="@+id/txt13"
+                            android:layout_toRightOf="@id/image7"
+                            android:text="About Coke:"
+                            android:textSize="16dp"
+                            android:textStyle="bold"
+                            android:textColor="#DF572D"
+                            />
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:src="@drawable/ic_favorite_border_black_24dp"
+                            android:layout_alignParentRight="true"
+                            />
+                    </RelativeLayout>
+
+                </RelativeLayout>
+
+            </androidx.cardview.widget.CardView>
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

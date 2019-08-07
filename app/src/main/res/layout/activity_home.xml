@@ -101,6 +101,7 @@
 
                 <ImageView
                     android:id="@+id/image4"
+                    android:onClick="shakesDrinks"
                     android:layout_width="match_parent"
                     android:layout_height="80dp"
                     android:layout_marginTop="150dp"

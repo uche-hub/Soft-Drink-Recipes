@@ -16,4 +16,9 @@
     <string name="menu_cocoa_home">Home</string>
     <string name="menu_cocoa_favourite">Favourite</string>
     <string name="menu_cocoa_about_us">About Us</string>
+
+    <string name="title_activity_shakes_drinks">Shakes Drinks</string>
+    <string name="menu_shakes_home">Home</string>
+    <string name="menu_shakes_favourite">Favourite</string>
+    <string name="menu_shakes_about_us">About Us</string>
 </resources>
