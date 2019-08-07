@@ -48,6 +48,11 @@ public class SoftDrinks extends AppCompatActivity
         navigationView.setNavigationItemSelectedListener(this);
     }
 
+    public void click1(){
+        Intent intent = new Intent(this, CokeRecipe.class);
+        startActivity(intent);
+    }
+
     @Override
     public void onBackPressed() {
         DrawerLayout drawer = findViewById(R.id.drawer_layout);
