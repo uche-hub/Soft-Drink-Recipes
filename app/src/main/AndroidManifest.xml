@@ -10,9 +10,12 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
+            android:name=".CokeRecipe"
+            android:label="@string/title_activity_coke_recipe"></activity>
+        <activity
             android:name=".CockTail"
             android:label="@string/title_activity_cock_tail"
-            android:theme="@style/AppTheme.NoActionBar"></activity>
+            android:theme="@style/AppTheme.NoActionBar" />
         <activity
             android:name=".ShakesDrinks"
             android:label="@string/title_activity_shakes_drinks"
