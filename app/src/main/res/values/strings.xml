@@ -28,6 +28,6 @@
     <string name="menu_cocktail_about_us">About Us</string>
 
     <string name="title_activity_coke_recipe">Coke Recipe</string>
-    <string name="title_home">Home</string>
+    <string name="title_recipe">Recipe</string>
     <string name="title_ingredient">Ingredient</string>
 </resources>

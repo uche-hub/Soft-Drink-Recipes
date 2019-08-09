@@ -48,7 +48,7 @@ public class SoftDrinks extends AppCompatActivity
         navigationView.setNavigationItemSelectedListener(this);
     }
 
-    public void click1(){
+    public void coke(View v){
         Intent intent = new Intent(this, CokeRecipe.class);
         startActivity(intent);
     }
