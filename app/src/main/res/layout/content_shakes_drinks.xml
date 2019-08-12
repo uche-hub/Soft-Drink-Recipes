@@ -71,7 +71,7 @@
                             android:layout_marginLeft="-180dp"
                             android:layout_below="@+id/txt1"
                             android:layout_toRightOf="@id/image1"
-                            android:text="About Cocoa:"
+                            android:text="About Fruit Shakes:"
                             android:textSize="16dp"
                             android:textStyle="bold"
                             android:textColor="#DF572D"
@@ -117,7 +117,7 @@
                             android:layout_height="130dp"
                             android:layout_marginRight="200dp"
                             android:layout_marginBottom="18sp"
-                            android:src="@drawable/fruitshakes" />
+                            android:src="@drawable/strawberry" />
 
                         <TextView
                             android:id="@+id/txt3"
@@ -125,7 +125,7 @@
                             android:layout_height="wrap_content"
                             android:layout_marginLeft="-180dp"
                             android:layout_toRightOf="@id/image2"
-                            android:text="Fruit Shakes"
+                            android:text="STRAWBERRY MILKSHAKE"
                             android:textSize="20dp"
                             android:textStyle="bold"
                             android:textColor="#DF572D"
@@ -138,7 +138,7 @@
                             android:layout_marginLeft="-180dp"
                             android:layout_below="@+id/txt3"
                             android:layout_toRightOf="@id/image2"
-                            android:text="About Coke:"
+                            android:text="About STRAWBERRY MILKSHAKE: A milkshake is a heavy creamy drink that is often used as a dessert. Once you blend any fruit or vegetable with whole milk, it becomes a milkshake. Milkshakes are the perfect drink for a hot day."
                             android:textSize="16dp"
                             android:textStyle="bold"
                             android:textColor="#DF572D"
@@ -185,7 +185,7 @@
                             android:layout_height="130dp"
                             android:layout_marginRight="200dp"
                             android:layout_marginBottom="18sp"
-                            android:src="@drawable/fruitshakes" />
+                            android:src="@drawable/cocolate" />
 
                         <TextView
                             android:id="@+id/txt5"
@@ -193,7 +193,7 @@
                             android:layout_height="wrap_content"
                             android:layout_marginLeft="-180dp"
                             android:layout_toRightOf="@id/image3"
-                            android:text="Fruit Shakes"
+                            android:text="COCOLATE MILKSHAKE"
                             android:textSize="20dp"
                             android:textStyle="bold"
                             android:textColor="#DF572D"
@@ -206,7 +206,7 @@
                             android:layout_marginLeft="-180dp"
                             android:layout_below="@+id/txt5"
                             android:layout_toRightOf="@id/image3"
-                            android:text="About Coke:"
+                            android:text="About COCOLATE MILKSHAKE: Chocolate milkshakes are simple to make and always taste good"
                             android:textSize="16dp"
                             android:textStyle="bold"
                             android:textColor="#DF572D"
@@ -252,7 +252,7 @@
                             android:layout_height="130dp"
                             android:layout_marginRight="200dp"
                             android:layout_marginBottom="18sp"
-                            android:src="@drawable/fruitshakes" />
+                            android:src="@drawable/banana" />
 
                         <TextView
                             android:id="@+id/txt7"
@@ -260,7 +260,7 @@
                             android:layout_height="wrap_content"
                             android:layout_marginLeft="-180dp"
                             android:layout_toRightOf="@id/image4"
-                            android:text="Fruit Shakes"
+                            android:text="BANANA MILKSHAKE"
                             android:textSize="20dp"
                             android:textStyle="bold"
                             android:textColor="#DF572D"
@@ -273,7 +273,7 @@
                             android:layout_marginLeft="-180dp"
                             android:layout_below="@+id/txt7"
                             android:layout_toRightOf="@id/image4"
-                            android:text="About Coke:"
+                            android:text="About BANANA MILKSHAKE:"
                             android:textSize="16dp"
                             android:textStyle="bold"
                             android:textColor="#DF572D"
@@ -319,7 +319,7 @@
                             android:layout_height="130dp"
                             android:layout_marginRight="200dp"
                             android:layout_marginBottom="18sp"
-                            android:src="@drawable/fruitshakes" />
+                            android:src="@drawable/van"/>
 
                         <TextView
                             android:id="@+id/txt9"
@@ -327,7 +327,7 @@
                             android:layout_height="wrap_content"
                             android:layout_marginLeft="-180dp"
                             android:layout_toRightOf="@id/image5"
-                            android:text="Fruit Shakes"
+                            android:text="Vanilla milkshake"
                             android:textSize="20dp"
                             android:textStyle="bold"
                             android:textColor="#DF572D"
@@ -340,7 +340,7 @@
                             android:layout_marginLeft="-180dp"
                             android:layout_below="@+id/txt9"
                             android:layout_toRightOf="@id/image5"
-                            android:text="About Coke:"
+                            android:text="About Vanilla milkshake: With vanilla ice cream, milk and vanilla extracts, you'll have your vanilla milkshake swimming down your glass."
                             android:textSize="16dp"
                             android:textStyle="bold"
                             android:textColor="#DF572D"
