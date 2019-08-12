@@ -396,6 +396,7 @@
 
             <androidx.cardview.widget.CardView
                 android:layout_width="match_parent"
+                android:onClick="fayrouz"
                 android:layout_height="173dp"
                 android:layout_marginLeft="16dp"
                 android:layout_marginTop="16dp"

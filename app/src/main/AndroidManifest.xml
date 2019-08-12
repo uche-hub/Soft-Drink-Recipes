@@ -10,8 +10,11 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
+            android:name=".Fayrouz"
+            android:label="@string/title_activity_fayrouz"></activity>
+        <activity
             android:name=".Teem"
-            android:label="@string/title_activity_teem"></activity>
+            android:label="@string/title_activity_teem" />
         <activity
             android:name=".MountainDew"
             android:label="@string/title_activity_mountain_dew" />

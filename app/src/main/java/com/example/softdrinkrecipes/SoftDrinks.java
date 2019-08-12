@@ -78,6 +78,11 @@ public class SoftDrinks extends AppCompatActivity
         startActivity(intent);
     }
 
+    public void fayrouz(View v){
+        Intent intent = new Intent(this, Fayrouz.class);
+        startActivity(intent);
+    }
+
     @Override
     public void onBackPressed() {
         DrawerLayout drawer = findViewById(R.id.drawer_layout);
