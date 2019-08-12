@@ -13,44 +13,234 @@
         android:orientation="vertical"
         >
 
-        <TextView
-            android:id="@+id/message"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_alignParentEnd="true"
-            android:layout_alignParentRight="true"
-            android:layout_marginStart="@dimen/activity_horizontal_margin"
-            android:layout_marginLeft="@dimen/activity_horizontal_margin"
-            android:layout_marginTop="@dimen/activity_vertical_margin"
-            android:layout_marginEnd="143dp"
-            android:layout_marginRight="143dp"
-            android:text="Coke Drink"
-            android:textAlignment="center"
-            android:textSize="25sp"
-            app:layout_constraintLeft_toLeftOf="parent"
-            app:layout_constraintTop_toTopOf="parent" />
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                >
 
 
-        <TextView
-            android:id="@+id/message1"
-            android:layout_width="202dp"
-            android:layout_height="360dp"
-            android:layout_below="@+id/message"
-            android:layout_marginStart="@dimen/activity_horizontal_margin"
-            android:layout_marginLeft="@dimen/activity_horizontal_margin"
-            android:layout_marginTop="@dimen/activity_vertical_margin"
-            android:text="Coca-Cola is sweetened with pure cane sugar or high-fructose corn syrup, according to where the drink is actually produced. American consumers drink Coke Classic made of high-fructose corn syrup, which is cheaper to acquire and transport within temperate climates. "
-            android:textAlignment="center"
-            android:textSize="20sp"
-            app:layout_constraintLeft_toLeftOf="parent"
-            app:layout_constraintTop_toTopOf="parent" />
+                <TextView
+                    android:id="@+id/message"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginStart="@dimen/activity_horizontal_margin"
+                    android:layout_marginLeft="@dimen/activity_horizontal_margin"
+                    android:layout_marginTop="@dimen/activity_vertical_margin"
+                    android:layout_marginEnd="143dp"
+                    android:layout_marginRight="143dp"
+                    android:text="Coke Drink"
+                    android:textAlignment="center"
+                    android:textSize="25sp"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
 
-        <ImageView
-            android:layout_width="187dp"
-            android:layout_height="424dp"
-            android:layout_marginLeft="6dp"
-            android:layout_toRightOf="@id/message1"
-            android:src="@drawable/coke2" />
+
+                <TextView
+                    android:id="@+id/message1"
+                    android:layout_width="202dp"
+                    android:layout_height="360dp"
+                    android:layout_below="@+id/message"
+                    android:layout_marginStart="@dimen/activity_horizontal_margin"
+                    android:layout_marginLeft="@dimen/activity_horizontal_margin"
+                    android:layout_marginTop="@dimen/activity_vertical_margin"
+                    android:text="Coca-Cola is sweetened with pure cane sugar or high-fructose corn syrup, according to where the drink is actually produced. American consumers drink Coke Classic made of high-fructose corn syrup, which is cheaper to acquire and transport within temperate climates. "
+                    android:textAlignment="center"
+                    android:textSize="20sp"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <ImageView
+                    android:layout_width="187dp"
+                    android:layout_height="424dp"
+                    android:layout_marginLeft="6dp"
+                    android:layout_toRightOf="@id/message1"
+                    android:src="@drawable/coke2" />
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <ScrollView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="vertical"
+                            android:layout_marginTop="400dp"
+                            >
+
+                            <TextView
+                                android:id="@+id/make"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_below="@id/message1"
+                                android:layout_alignParentEnd="true"
+                                android:layout_alignParentRight="true"
+                                android:text="How to make"
+                                android:layout_gravity="center"
+                                android:textSize="25sp" />
+
+                            <TextView
+                                android:id="@+id/ingre"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="1. 1 oz (28 g) caffeine citrate"
+                                android:layout_below="@id/make"
+                                />
+
+                            <TextView
+                                android:id="@+id/ingre2"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="2. 3 oz (85 g) citric acid"
+                                android:layout_below="@id/ingre"
+                                />
+
+                            <TextView
+                                android:id="@+id/ingre3"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="3. 1 US fl oz (30 ml) vanilla extract"
+                                android:layout_below="@id/ingre2"
+                                />
+
+                            <TextView
+                                android:id="@+id/ingre4"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="4. 1 US qt (946 ml) lime juice"
+                                android:layout_below="@id/ingre3"
+                                />
+
+                            <TextView
+                                android:id="@+id/ingre5"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="5. 2.5 oz (71 g) flavoring, i.e., Merchandise 7X"
+                                android:layout_below="@id/ingre4"
+                                />
+
+                            <TextView
+                                android:id="@+id/ingre6"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="6. 30 lb (14 kg) sugar"
+                                android:layout_below="@id/ingre5"
+                                />
+
+                            <TextView
+                                android:id="@+id/ingre7"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="7. 4 US fl oz (118.3 ml) fluid extract of coca leaves (flavor essence of the coca leaf)."
+                                android:layout_below="@id/ingre6"
+                                />
+
+                            <TextView
+                                android:id="@+id/ingre8"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="8. 2.5 US gal (9.5 l; 2.1 imp gal) water"
+                                android:layout_below="@id/ingre7"
+                                />
+
+                            <TextView
+                                android:id="@+id/ingre9"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="9. caramel sufficient to give color"
+                                android:layout_below="@id/ingre8"
+                                />
+
+                            <TextView
+                                android:id="@+id/ingre10"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="10. 'Mix caffeine acid and lime juice in 1 quart boiling water add vanilla and flavoring when cool.'"
+                                android:layout_below="@id/ingre9"
+                                />
+
+                            <TextView
+                                android:id="@+id/ingre11"
+                                android:layout_marginTop="5dp"
+                                android:layout_marginLeft="5dp"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Flavoring (Merchandise 7X):"
+                                android:textSize="18sp"
+                                android:layout_below="@id/ingre10"
+                                />
+
+                            <TextView
+                                android:id="@+id/ingre12"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="1. 1 qrt alcohol"
+                                android:layout_below="@id/ingre11"
+                                />
+
+                            <TextView
+                                android:id="@+id/ingre13"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="2. 80 oil orange"
+                                android:layout_below="@id/ingre12"
+                                />
+
+                            <TextView
+                                android:id="@+id/ingre14"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="3. 40 oil cinnamon"
+                                android:layout_below="@id/ingre13"
+                                />
+
+                            <TextView
+                                android:id="@+id/ingre15"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="4. 120 oil lemon"
+                                android:layout_below="@id/ingre14"
+                                />
+
+                            <TextView
+                                android:id="@+id/ingre16"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="5. 20 oil coriander"
+                                android:layout_below="@id/ingre15"
+                                />
+
+
+                            <TextView
+                                android:id="@+id/ingre17"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="6. 40 oil nutmeg"
+                                android:layout_below="@id/ingre16"
+                                />
+
+                            <TextView
+                                android:id="@+id/ingre18"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="7. 40 oil neroli"
+                                android:layout_below="@id/ingre17"
+                                />
+                        </LinearLayout>
+                    </ScrollView>
+                </RelativeLayout>
+            </RelativeLayout>
+        </ScrollView>
 
     </RelativeLayout>
 
@@ -66,6 +256,6 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
-        app:menu="@menu/bottom_nav_menu" />
+        app:menu="@menu/bottom_nav_menu1" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

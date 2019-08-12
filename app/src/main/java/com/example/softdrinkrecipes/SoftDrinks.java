@@ -53,6 +53,11 @@ public class SoftDrinks extends AppCompatActivity
         startActivity(intent);
     }
 
+    public void sevenUp(View v){
+        Intent intent = new Intent(this, SevenUp.class);
+        startActivity(intent);
+    }
+
     @Override
     public void onBackPressed() {
         DrawerLayout drawer = findViewById(R.id.drawer_layout);

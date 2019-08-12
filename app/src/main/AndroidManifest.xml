@@ -10,8 +10,11 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
+            android:name=".SevenUp"
+            android:label="@string/title_activity_seven_up"></activity>
+        <activity
             android:name=".CokeRecipe"
-            android:label="@string/title_activity_coke_recipe"></activity>
+            android:label="@string/title_activity_coke_recipe" />
         <activity
             android:name=".CockTail"
             android:label="@string/title_activity_cock_tail"

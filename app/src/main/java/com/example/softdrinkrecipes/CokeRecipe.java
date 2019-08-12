@@ -22,9 +22,6 @@ public class CokeRecipe extends AppCompatActivity {
                 case R.id.navigation_home:
                     mTextMessage.setText(R.string.title_recipe);
                     return true;
-                case R.id.navigation_dashboard:
-                    mTextMessage.setText(R.string.title_ingredient);
-                    return true;
             }
             return false;
         }
