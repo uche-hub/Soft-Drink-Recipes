@@ -58,6 +58,26 @@ public class SoftDrinks extends AppCompatActivity
         startActivity(intent);
     }
 
+    public void pepsi(View v){
+        Intent intent = new Intent(this, Pepsi.class);
+        startActivity(intent);
+    }
+
+    public void mirinda(View v){
+        Intent intent = new Intent(this, Mirinda.class);
+        startActivity(intent);
+    }
+
+    public void mountainDew(View v){
+        Intent intent = new Intent(this, MountainDew.class);
+        startActivity(intent);
+    }
+
+    public void teem(View v){
+        Intent intent = new Intent(this, Teem.class);
+        startActivity(intent);
+    }
+
     @Override
     public void onBackPressed() {
         DrawerLayout drawer = findViewById(R.id.drawer_layout);

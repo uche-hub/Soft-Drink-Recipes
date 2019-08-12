@@ -18,32 +18,28 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:orientation="vertical"
-            >
+            android:orientation="vertical">
 
 
             <androidx.cardview.widget.CardView
                 android:layout_width="match_parent"
-                android:onClick="coke"
                 android:layout_height="173dp"
-                app:cardElevation="24dp"
-                app:cardCornerRadius="50dp"
-                android:layout_marginTop="16dp"
                 android:layout_marginLeft="16dp"
+                android:layout_marginTop="16dp"
                 android:layout_marginRight="16dp"
-                >
+                android:onClick="coke"
+                app:cardCornerRadius="50dp"
+                app:cardElevation="24dp">
 
                 <RelativeLayout
                     android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    >
+                    android:layout_height="match_parent">
 
                     <RelativeLayout
-                        android:layout_margin="20dp"
                         android:layout_width="350dp"
                         android:layout_height="120dp"
-                        android:orientation="vertical"
-                        >
+                        android:layout_margin="20dp"
+                        android:orientation="vertical">
 
                         <ImageView
                             android:id="@+id/image1"
@@ -60,10 +56,9 @@
                             android:layout_marginLeft="-180dp"
                             android:layout_toRightOf="@id/image1"
                             android:text="Coca-Cola"
-                            android:textSize="20dp"
-                            android:textStyle="bold"
                             android:textColor="#DF572D"
-                            />
+                            android:textSize="20dp"
+                            android:textStyle="bold" />
 
                         <TextView
                             android:id="@+id/txt2"
@@ -80,9 +75,8 @@
                         <ImageView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            app:srcCompat="@drawable/ic_favorite_border_black_24dp"
                             android:layout_alignParentRight="true"
-                            />
+                            app:srcCompat="@drawable/ic_favorite_border_black_24dp" />
                     </RelativeLayout>
 
                 </RelativeLayout>
@@ -91,26 +85,23 @@
 
             <androidx.cardview.widget.CardView
                 android:layout_width="match_parent"
-                android:onClick="sevenUp"
                 android:layout_height="173dp"
-                app:cardElevation="24dp"
-                app:cardCornerRadius="50dp"
-                android:layout_marginTop="16dp"
                 android:layout_marginLeft="16dp"
+                android:layout_marginTop="16dp"
                 android:layout_marginRight="16dp"
-                >
+                android:onClick="sevenUp"
+                app:cardCornerRadius="50dp"
+                app:cardElevation="24dp">
 
                 <RelativeLayout
                     android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    >
+                    android:layout_height="match_parent">
 
                     <RelativeLayout
-                        android:layout_margin="20dp"
                         android:layout_width="350dp"
                         android:layout_height="120dp"
-                        android:orientation="vertical"
-                        >
+                        android:layout_margin="20dp"
+                        android:orientation="vertical">
 
                         <ImageView
                             android:id="@+id/image2"
@@ -127,10 +118,9 @@
                             android:layout_marginLeft="-180dp"
                             android:layout_toRightOf="@id/image2"
                             android:text="7up"
-                            android:textSize="20dp"
-                            android:textStyle="bold"
                             android:textColor="#DF572D"
-                            />
+                            android:textSize="20dp"
+                            android:textStyle="bold" />
 
                         <TextView
                             android:id="@+id/txt4"
@@ -147,9 +137,8 @@
                         <ImageView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            app:srcCompat="@drawable/ic_favorite_border_black_24dp"
                             android:layout_alignParentRight="true"
-                            />
+                            app:srcCompat="@drawable/ic_favorite_border_black_24dp" />
                     </RelativeLayout>
 
                 </RelativeLayout>
@@ -159,25 +148,23 @@
 
             <androidx.cardview.widget.CardView
                 android:layout_width="match_parent"
+                android:onClick="pepsi"
                 android:layout_height="173dp"
-                app:cardElevation="24dp"
-                app:cardCornerRadius="50dp"
-                android:layout_marginTop="16dp"
                 android:layout_marginLeft="16dp"
+                android:layout_marginTop="16dp"
                 android:layout_marginRight="16dp"
-                >
+                app:cardCornerRadius="50dp"
+                app:cardElevation="24dp">
 
                 <RelativeLayout
                     android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    >
+                    android:layout_height="match_parent">
 
                     <RelativeLayout
-                        android:layout_margin="20dp"
                         android:layout_width="350dp"
                         android:layout_height="120dp"
-                        android:orientation="vertical"
-                        >
+                        android:layout_margin="20dp"
+                        android:orientation="vertical">
 
                         <ImageView
                             android:id="@+id/image3"
@@ -185,7 +172,7 @@
                             android:layout_height="130dp"
                             android:layout_marginRight="200dp"
                             android:layout_marginBottom="18sp"
-                            android:src="@drawable/coke2" />
+                            android:src="@drawable/pepsi" />
 
                         <TextView
                             android:id="@+id/txt5"
@@ -194,30 +181,27 @@
                             android:layout_marginLeft="-180dp"
                             android:layout_toRightOf="@id/image3"
                             android:text="Pepsi"
-                            android:textSize="20dp"
-                            android:textStyle="bold"
                             android:textColor="#DF572D"
-                            />
+                            android:textSize="20dp"
+                            android:textStyle="bold" />
 
                         <TextView
                             android:id="@+id/txt6"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:layout_marginLeft="-180dp"
                             android:layout_below="@+id/txt5"
+                            android:layout_marginLeft="-180dp"
                             android:layout_toRightOf="@id/image3"
-                            android:text="About Pepsi:Sweetened Carbonated Beverage"
-                            android:textSize="16dp"
-                            android:textStyle="bold"
+                            android:text="About Pepsi:Pepsi is a carbonated soft drink manufactured by PepsiCo."
                             android:textColor="#DF572D"
-                            />
+                            android:textSize="16dp"
+                            android:textStyle="bold" />
 
                         <ImageView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            app:srcCompat="@drawable/ic_favorite_border_black_24dp"
                             android:layout_alignParentRight="true"
-                            />
+                            app:srcCompat="@drawable/ic_favorite_border_black_24dp" />
                     </RelativeLayout>
 
                 </RelativeLayout>
@@ -226,25 +210,23 @@
 
             <androidx.cardview.widget.CardView
                 android:layout_width="match_parent"
+                android:onClick="mirinda"
                 android:layout_height="173dp"
-                app:cardElevation="24dp"
-                app:cardCornerRadius="50dp"
-                android:layout_marginTop="16dp"
                 android:layout_marginLeft="16dp"
+                android:layout_marginTop="16dp"
                 android:layout_marginRight="16dp"
-                >
+                app:cardCornerRadius="50dp"
+                app:cardElevation="24dp">
 
                 <RelativeLayout
                     android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    >
+                    android:layout_height="match_parent">
 
                     <RelativeLayout
-                        android:layout_margin="20dp"
                         android:layout_width="350dp"
                         android:layout_height="120dp"
-                        android:orientation="vertical"
-                        >
+                        android:layout_margin="20dp"
+                        android:orientation="vertical">
 
                         <ImageView
                             android:id="@+id/image4"
@@ -252,7 +234,7 @@
                             android:layout_height="130dp"
                             android:layout_marginRight="200dp"
                             android:layout_marginBottom="18sp"
-                            android:src="@drawable/coke2" />
+                            android:src="@drawable/mirinda" />
 
                         <TextView
                             android:id="@+id/txt7"
@@ -260,31 +242,28 @@
                             android:layout_height="wrap_content"
                             android:layout_marginLeft="-180dp"
                             android:layout_toRightOf="@id/image4"
-                            android:text="Coke"
-                            android:textSize="20dp"
-                            android:textStyle="bold"
+                            android:text="Mirinda"
                             android:textColor="#DF572D"
-                            />
+                            android:textSize="20dp"
+                            android:textStyle="bold" />
 
                         <TextView
                             android:id="@+id/txt8"
-                            android:layout_width="wrap_content"
+                            android:layout_width="148dp"
                             android:layout_height="wrap_content"
-                            android:layout_marginLeft="-180dp"
                             android:layout_below="@+id/txt7"
+                            android:layout_marginLeft="-180dp"
                             android:layout_toRightOf="@id/image4"
-                            android:text="About Coke:"
-                            android:textSize="16dp"
-                            android:textStyle="bold"
+                            android:text="About Mirinda:Mirinda is a brand of soft drink originally created in Spain in 1959"
                             android:textColor="#DF572D"
-                            />
+                            android:textSize="16dp"
+                            android:textStyle="bold" />
 
                         <ImageView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            app:srcCompat="@drawable/ic_favorite_border_black_24dp"
                             android:layout_alignParentRight="true"
-                            />
+                            app:srcCompat="@drawable/ic_favorite_border_black_24dp" />
                     </RelativeLayout>
 
                 </RelativeLayout>
@@ -293,25 +272,23 @@
 
             <androidx.cardview.widget.CardView
                 android:layout_width="match_parent"
+                android:onClick="mountainDew"
                 android:layout_height="173dp"
-                app:cardElevation="24dp"
-                app:cardCornerRadius="50dp"
-                android:layout_marginTop="16dp"
                 android:layout_marginLeft="16dp"
+                android:layout_marginTop="16dp"
                 android:layout_marginRight="16dp"
-                >
+                app:cardCornerRadius="50dp"
+                app:cardElevation="24dp">
 
                 <RelativeLayout
                     android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    >
+                    android:layout_height="match_parent">
 
                     <RelativeLayout
-                        android:layout_margin="20dp"
                         android:layout_width="350dp"
                         android:layout_height="120dp"
-                        android:orientation="vertical"
-                        >
+                        android:layout_margin="20dp"
+                        android:orientation="vertical">
 
                         <ImageView
                             android:id="@+id/image5"
@@ -319,7 +296,7 @@
                             android:layout_height="130dp"
                             android:layout_marginRight="200dp"
                             android:layout_marginBottom="18sp"
-                            android:src="@drawable/coke2" />
+                            android:src="@drawable/mountaindew" />
 
                         <TextView
                             android:id="@+id/txt9"
@@ -327,31 +304,28 @@
                             android:layout_height="wrap_content"
                             android:layout_marginLeft="-180dp"
                             android:layout_toRightOf="@id/image5"
-                            android:text="Coke"
-                            android:textSize="20dp"
-                            android:textStyle="bold"
+                            android:text="MOUNTAIN DEW"
                             android:textColor="#DF572D"
-                            />
+                            android:textSize="20dp"
+                            android:textStyle="bold" />
 
                         <TextView
                             android:id="@+id/txt10"
-                            android:layout_width="wrap_content"
+                            android:layout_width="148dp"
                             android:layout_height="wrap_content"
-                            android:layout_marginLeft="-180dp"
                             android:layout_below="@+id/txt9"
+                            android:layout_marginLeft="-180dp"
                             android:layout_toRightOf="@id/image5"
-                            android:text="About Coke:"
-                            android:textSize="16dp"
-                            android:textStyle="bold"
+                            android:text="About MountainDew: a carbonated soft drink brand produced and owned by PepsiCo."
                             android:textColor="#DF572D"
-                            />
+                            android:textSize="16dp"
+                            android:textStyle="bold" />
 
                         <ImageView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            app:srcCompat="@drawable/ic_favorite_border_black_24dp"
                             android:layout_alignParentRight="true"
-                            />
+                            app:srcCompat="@drawable/ic_favorite_border_black_24dp" />
                     </RelativeLayout>
 
                 </RelativeLayout>
@@ -360,25 +334,23 @@
 
             <androidx.cardview.widget.CardView
                 android:layout_width="match_parent"
+                android:onClick="teem"
                 android:layout_height="173dp"
-                app:cardElevation="24dp"
-                app:cardCornerRadius="50dp"
-                android:layout_marginTop="16dp"
                 android:layout_marginLeft="16dp"
+                android:layout_marginTop="16dp"
                 android:layout_marginRight="16dp"
-                >
+                app:cardCornerRadius="50dp"
+                app:cardElevation="24dp">
 
                 <RelativeLayout
                     android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    >
+                    android:layout_height="match_parent">
 
                     <RelativeLayout
-                        android:layout_margin="20dp"
                         android:layout_width="350dp"
                         android:layout_height="120dp"
-                        android:orientation="vertical"
-                        >
+                        android:layout_margin="20dp"
+                        android:orientation="vertical">
 
                         <ImageView
                             android:id="@+id/image6"
@@ -386,7 +358,7 @@
                             android:layout_height="130dp"
                             android:layout_marginRight="200dp"
                             android:layout_marginBottom="18sp"
-                            android:src="@drawable/coke2" />
+                            android:src="@drawable/teem" />
 
                         <TextView
                             android:id="@+id/txt11"
@@ -394,31 +366,28 @@
                             android:layout_height="wrap_content"
                             android:layout_marginLeft="-180dp"
                             android:layout_toRightOf="@id/image6"
-                            android:text="Coke"
-                            android:textSize="20dp"
-                            android:textStyle="bold"
+                            android:text="Teem Bitter Lemon"
                             android:textColor="#DF572D"
-                            />
+                            android:textSize="20dp"
+                            android:textStyle="bold" />
 
                         <TextView
                             android:id="@+id/txt12"
-                            android:layout_width="wrap_content"
+                            android:layout_width="148dp"
                             android:layout_height="wrap_content"
-                            android:layout_marginLeft="-180dp"
                             android:layout_below="@+id/txt11"
+                            android:layout_marginLeft="-180dp"
                             android:layout_toRightOf="@id/image6"
-                            android:text="About Coke:"
-                            android:textSize="16dp"
-                            android:textStyle="bold"
+                            android:text="About Teem: Bitter lemon is a carbonated soft drink flavoured with quinine and lemon."
                             android:textColor="#DF572D"
-                            />
+                            android:textSize="16dp"
+                            android:textStyle="bold" />
 
                         <ImageView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            app:srcCompat="@drawable/ic_favorite_border_black_24dp"
                             android:layout_alignParentRight="true"
-                            />
+                            app:srcCompat="@drawable/ic_favorite_border_black_24dp" />
                     </RelativeLayout>
 
                 </RelativeLayout>
@@ -428,24 +397,21 @@
             <androidx.cardview.widget.CardView
                 android:layout_width="match_parent"
                 android:layout_height="173dp"
-                app:cardElevation="24dp"
-                app:cardCornerRadius="50dp"
-                android:layout_marginTop="16dp"
                 android:layout_marginLeft="16dp"
+                android:layout_marginTop="16dp"
                 android:layout_marginRight="16dp"
-                >
+                app:cardCornerRadius="50dp"
+                app:cardElevation="24dp">
 
                 <RelativeLayout
                     android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    >
+                    android:layout_height="match_parent">
 
                     <RelativeLayout
-                        android:layout_margin="20dp"
                         android:layout_width="350dp"
                         android:layout_height="120dp"
-                        android:orientation="vertical"
-                        >
+                        android:layout_margin="20dp"
+                        android:orientation="vertical">
 
                         <ImageView
                             android:id="@+id/image7"
@@ -453,7 +419,7 @@
                             android:layout_height="130dp"
                             android:layout_marginRight="200dp"
                             android:layout_marginBottom="18sp"
-                            android:src="@drawable/coke2" />
+                            android:src="@drawable/fayrouz" />
 
                         <TextView
                             android:id="@+id/txt13"
@@ -461,31 +427,28 @@
                             android:layout_height="wrap_content"
                             android:layout_marginLeft="-180dp"
                             android:layout_toRightOf="@id/image7"
-                            android:text="Coke"
-                            android:textSize="20dp"
-                            android:textStyle="bold"
+                            android:text="FAYROUZ"
                             android:textColor="#DF572D"
-                            />
+                            android:textSize="20dp"
+                            android:textStyle="bold" />
 
                         <TextView
                             android:id="@+id/txt14"
-                            android:layout_width="wrap_content"
+                            android:layout_width="148dp"
                             android:layout_height="wrap_content"
-                            android:layout_marginLeft="-180dp"
                             android:layout_below="@+id/txt13"
+                            android:layout_marginLeft="-180dp"
                             android:layout_toRightOf="@id/image7"
-                            android:text="About Coke:"
-                            android:textSize="16dp"
-                            android:textStyle="bold"
+                            android:text="About Fayrouz: Fayrouz is the natural and refreshing flavored malt beverage"
                             android:textColor="#DF572D"
-                            />
+                            android:textSize="16dp"
+                            android:textStyle="bold" />
 
                         <ImageView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            app:srcCompat="@drawable/ic_favorite_border_black_24dp"
                             android:layout_alignParentRight="true"
-                            />
+                            app:srcCompat="@drawable/ic_favorite_border_black_24dp" />
                     </RelativeLayout>
 
                 </RelativeLayout>

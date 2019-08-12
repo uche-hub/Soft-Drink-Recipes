@@ -33,4 +33,8 @@
     <string name="title_home">Home</string>
     <string name="title_dashboard">Dashboard</string>
     <string name="title_notifications">Notifications</string>
+    <string name="title_activity_pepsi">Pepsi</string>
+    <string name="title_activity_mirinda">Mirinda</string>
+    <string name="title_activity_mountain_dew">Mountain Dew</string>
+    <string name="title_activity_teem">Teem Lemon</string>
 </resources>

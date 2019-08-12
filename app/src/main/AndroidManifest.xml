@@ -10,8 +10,20 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
+            android:name=".Teem"
+            android:label="@string/title_activity_teem"></activity>
+        <activity
+            android:name=".MountainDew"
+            android:label="@string/title_activity_mountain_dew" />
+        <activity
+            android:name=".Mirinda"
+            android:label="@string/title_activity_mirinda" />
+        <activity
+            android:name=".Pepsi"
+            android:label="@string/title_activity_pepsi" />
+        <activity
             android:name=".SevenUp"
-            android:label="@string/title_activity_seven_up"></activity>
+            android:label="@string/title_activity_seven_up" />
         <activity
             android:name=".CokeRecipe"
             android:label="@string/title_activity_coke_recipe" />
